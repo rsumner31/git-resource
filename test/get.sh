@@ -408,6 +408,7 @@ it_decrypts_git_crypted_files() {
 
   test $(cat $dest/secrets.txt) = "secret" || \
     ( echo "encrypted file was not decrypted"; return 1 )
+>>>>>>> 77defe1
 }
 
 run it_can_get_from_url
